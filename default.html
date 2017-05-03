@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+g<!DOCTYPE html>
 <html lang="zh">
 
 <head>
@@ -23,7 +23,6 @@
          <sapn class="icon-bar"></span>
          <sapn class="icon-bar"></span>
          </button>
-        <a class="navbar-brand"><img src="img/logo.png" height=30 width=61></a>
       </div>
       <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
@@ -61,24 +60,6 @@
         </div>
     </header>
 
-    <div class="container">
-      <h1>陕西腔棘鱼科技有限责任公司<small>陕西腔棘鱼科技有限责任公司</small></h1>
-      <h2>陕西腔棘鱼科技有限责任公司<small>陕西腔棘鱼科技有限责任公司</small></h2>
-      <h3>陕西腔棘鱼科技有限责任公司<strong>陕西腔棘鱼科技有限责任公司</strong></h3>
-      <h4>陕西腔棘鱼科技有限责任公司</h4>
-      <abbr title="http//:www.baidu.com">陕西腔棘鱼科技有限责任公司ceshi</abbr><br>
-      <h5>陕西腔棘鱼科技有限责任公司<small>陕西腔棘鱼科技有限责任公司</small></h5>
-      <h6>陕西腔棘鱼科技有限责任公司<small>陕西腔棘鱼科技有限责任公司</small></h6>
-      <blockquote>
-      <p class="lead">陕西腔棘鱼科技有限责任公司陕西腔棘鱼科技有限责任公司陕西腔棘鱼科技有限责任公司陕西腔棘鱼科技有限责任公司陕西腔棘鱼科技有限责任公司
-      陕西腔棘鱼科技有限责任公司陕西腔棘鱼科技有限责任公司陕西腔棘鱼科技有限责任公司陕西腔棘鱼科技有限责任公司陕西腔棘鱼科技有限责任公司
-    陕西腔棘鱼科技有限责任公司陕西腔棘鱼科技有限责任公司陕西腔棘鱼科技有限责任公司陕西腔棘鱼科技有限责任公司陕西腔棘鱼科技有限责任公司</p>
-        <button type="button" class="close" aria-hidden="true">&times;</button>
-      </blockquote>
-      <blockquote>
-        <footer><cite title="Source Title">Source Title</cite></footer>
-      </blockquote>
-    </div>
 
 
 
@@ -323,8 +304,20 @@
  <script src="js/respond.min.js"></script>
 <![endif]-->
 <script>
-$().ready(function(){
-$('[data-toggle="tooltip"]').tooltip();
-});
+if(navigator.appName == "Microsoft Internet Explorer" && navigator.appVersion.match(/6./i)=="6."){
+alert("IE 6");
+}
+else if(navigator.appName == "Microsoft Internet Explorer" && navigator.appVersion.match(/7./i)=="7."){
+alert("IE 7");
+}
+else if(navigator.appName == "Microsoft Internet Explorer" && navigator.appVersion.match(/8./i)=="8."){
+alert("IE 8");
+}
+else if(navigator.appName == "Microsoft Internet Explorer" && navigator.appVersion.match(/9./i)=="9."){
+alert("IE 9");
+} else{
+alert("Not IE");
+}
+
 </script>
 </html>
