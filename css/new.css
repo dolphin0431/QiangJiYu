@@ -1,7 +1,6 @@
-.col-lg-1,.col-sm-4,.col-sm-3,.col-sm-8{
-  background-color: #34495e;
-color: white;
-line-height: 5em;
-border: 1px solid white;
-height: 5em;
+.index_nav{
+  margin-bottom: 0;
+}
+.bg1{
+  background-image: url(/img/QJYN4.jpg);
 }
